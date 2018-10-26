@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".Homepage">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:id="@+id/textfield"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20sp"
+                android:id="@+id/iddis"
+                android:layout_width="90sp"
+                android:layout_height="30sp"
+                android:text="complaint ID"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/border"
+                />
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:layout_marginTop="20sp"
+                android:id="@+id/idno"
+                android:textSize="15sp"
+                android:background="@drawable/border"
+                android:layout_toEndOf="@+id/iddis"
+                android:layout_toRightOf="@+id/iddis"/>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/c_type"
+                android:background="@drawable/border"
+                android:layout_width="129dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/idno"
+                android:layout_toRightOf="@+id/idno">
+
+            </android.support.v7.widget.AppCompatSpinner>
+
+            </RelativeLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="300sp"
+                  android:orientation="vertical">
+
+                  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="200sp"
+                      android:hint="type your complaint here"
+                      android:scrollbars="vertical"
+                      android:id="@+id/details"
+                      android:gravity="top|start"
+                      android:padding="20sp"
+                      android:layout_marginTop="20sp"
+                      android:background="@drawable/border"
+                     />
+
+                  <Button
+                      android:layout_marginTop="20sp"
+                      android:id="@+id/submitcom"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:background="@color/colorPrimary"
+                      android:textColor="#fff"
+                      android:text="SUBMIT"
+                      />
+              </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
