@@ -55,4 +55,21 @@
     <string name="Network_disabled">It seems that your connection is disabled, do you want to activate it?</string>
     <string name="btn_yes">Yes</string>
     <string name="btn_no">No</string>
+
+
+    <string-array name="list_of_technician">
+        <item>Line operator</item>
+        <item>Engineer</item>
+        <item>Assistent Manager</item>
+        <item>Junior Engg.</item>
+    </string-array>
+
+    <string-array name="Nearest_Location_of_Tech">
+        <item>Singtam</item>
+        <item>Gangtok</item>
+        <item>Khamdong</item>
+        <item>Rumtek</item>
+        <item>Ranipool</item>
+        <item>Majitar</item>
+    </string-array>
 </resources>

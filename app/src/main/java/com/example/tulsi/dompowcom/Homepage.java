@@ -45,7 +45,6 @@ public class Homepage extends AppCompatActivity {
 
     private TextView txtViewLatNetwork;
     private TextView txtViewLongNetwork;
-    private TextView txtViewAltNetwork;
     private LocationManager mLocationManagerNetwork;
     private LocationListener mLocationListenerNetwork;
 
