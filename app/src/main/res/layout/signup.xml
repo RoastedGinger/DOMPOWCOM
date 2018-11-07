@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/signup"
-    android:background="#fff"
+    android:background="#be6dcc"
     tools:context=".Signup">
 
     <RelativeLayout
@@ -83,6 +83,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="50sp"
+        android:paddingLeft="50sp"
+        android:paddingRight="40sp"
         android:paddingEnd="40sp">
 
 
@@ -177,8 +179,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="11dp"
+            android:layout_marginEnd="11sp"
+            android:layout_marginRight="110sp"
             android:gravity="center"
             android:visibility="gone" />
     </RelativeLayout>

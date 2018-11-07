@@ -46,7 +46,6 @@ public class LoginActivity extends Fragment  {
     String idofcus,ps;
     TextView signup;
     AVLoadingIndicatorView avi;
-    ImageView imageView;
     android.support.v4.app.FragmentTransaction fragmentTransaction;
     public ProgressBar p;
     public LoginActivity()

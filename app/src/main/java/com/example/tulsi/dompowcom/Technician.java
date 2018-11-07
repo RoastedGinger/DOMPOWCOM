@@ -23,7 +23,7 @@ public class Technician extends AppCompatActivity {
 
     Spinner spinner1,spinner2;
     ArrayAdapter<CharSequence> adapter;
-    String tech,place;
+    String tech,place,Server_url = "";
     Button assign;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,7 +107,8 @@ public class Technician extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),voll,Toast.LENGTH_LONG).show();
                 //avi.hide();
             }
-        }){
+        });
+        /*{
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
@@ -117,7 +118,7 @@ public class Technician extends AppCompatActivity {
                 params.put("ps",ps);
                 return params;
             }
-        };
-        MySingleton.getInstance(getActivity()).addToRequestQue(request);
+        };*/
+        MySingleton.getInstance(Technician.this).addToRequestQue(request);
     }
 }
